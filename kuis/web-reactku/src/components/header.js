@@ -18,8 +18,8 @@ export default function Header(){
                 <li>Contact</li>
             </ul>
             <div className="search">
-                <FontAwesomeIcon icon = {faSearch} />
-                <FontAwesomeIcon icon = {faShoppingBasket} />
+                <FontAwesomeIcon icon = {faSearch} className="fa" />
+                <FontAwesomeIcon icon = {faShoppingBasket} className="fa"/>
             </div>
         </nav>
     )

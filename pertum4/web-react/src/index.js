@@ -5,8 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import BlogPost from "./container/BlogPost/BlogPost";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ListMahasiswa from './tugas/component/container/ListMahasiswa';
 
-ReactDOM.render(<BlogPost />, document.getElementById('root'));
+ReactDOM.render(<ListMahasiswa />, document.getElementById('root'));
 
 
 

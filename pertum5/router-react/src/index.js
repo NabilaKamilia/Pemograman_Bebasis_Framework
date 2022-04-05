@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import URL from './URLParams';
+import Nesting from './Nesting';
+import Auth from './Auth';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    /* <App /> */
+    /* <URL /> */
+    /* <Nesting /> */
+    /* <Auth /> */
   </React.StrictMode>,
   document.getElementById('root')
 );
