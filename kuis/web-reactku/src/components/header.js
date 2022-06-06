@@ -7,15 +7,14 @@ import { faSearch, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 
 
 
-export default function Header(){
-    return(
+const Header = () => {
+    return (
         <nav>
             <div className="logo">Rayes.</div>
             <ul>
                 <li>Home</li>
-                <li>Our Products</li>
+                <li>Products</li>
                 <li>About Us</li>
-                <li>Contact</li>
             </ul>
             <div className="search">
                 <FontAwesomeIcon icon = {faSearch} className="fa" />
@@ -24,3 +23,4 @@ export default function Header(){
         </nav>
     )
 }
+export default Header
