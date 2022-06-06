@@ -1,3 +1,13 @@
 {
-  "mahasiswa": []
+  "mahasiswa": [
+    {
+      "id": 1654533332964,
+      "nim": "1941720222",
+      "nama": "qwertyu",
+      "alamat": "wertyuiofdfzcxzczc",
+      "hp": "0987654",
+      "angkatan": "90",
+      "status": "lulus"
+    }
+  ]
 }
